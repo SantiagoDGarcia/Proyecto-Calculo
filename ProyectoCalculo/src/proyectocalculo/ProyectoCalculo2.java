@@ -22,14 +22,14 @@ public class ProyectoCalculo2 {
                            "|_________________________________________________________________________| " + "\n" +
                            "| Hola usuario, este es un proyecto de programacion básica, el cual te    | " + "\n" +
                            "| permitirá encontrar los valores de la funcion F(x), solamente de forma  | " + "\n" +
-                           "| analítica de algunas funciones ya preleccionadas...                     | " + "\n" +
+                           "| analítica de algunas funciones ya preleccionadas.                       | " + "\n" +
                            "|                                                                         | " + "\n" +
                            "| Funciones a expresar:                                                   | " + "\n" +
                            "| 1) f(x)=10x^2-x+2                                                       | " + "\n" +
                            "| 2) f(x)=7x^2-5x+15                                                      | " + "\n" +
                            "| 3) f(x)=3x^2-√3                                                         | " + "\n" +
-                           "| 4) f(x)                                                                 | " + "\n" +
-                           "| 5)                                                                      | " + "\n" +
+                           "| 4) f(x)=(x^2+2)/(-8x+3)                                                 | " + "\n" +
+                           "| 5) f(x)=7/2 x^3+〖8x〗^2-3x+2                                            | " + "\n" +
                            "| 6)                                                                      | " + "\n" +
                            "| 7)                                                                      | " + "\n" +
                            "| 8)                                                                      | " + "\n" +
@@ -120,14 +120,53 @@ public class ProyectoCalculo2 {
                 }break;
                 
             case 4:
-                
-                
-                break;
+                System.out.println(" Función: f(x)=(x^2+2)/(-8x+3)");
+                System.out.println(" __________________________" + "\n" +
+                                   "|   Valor X  |  Valor f(X) |" + "\n" +
+                                   "|__________________________|" + "\n"+
+                                   "|      Mayores que X       |" +"\n"+
+                                   "|__________________________|");
+ 
+                // 10 número Igual y Mayores que X
+                for (int i = 0; i <10 ; i++) {
+                    y =((x*x)+2)/(-8*x+3);
+                    System.out.println("|     "+x+" "+"       "+y);
+                    x = x+1;
+                }
+                System.out.println("|__________________________ " +"\n"+
+                                   "|       Menores que X      |" +"\n"+
+                                   "|__________________________|");
+                // 10 números Menores que X
+                for (int i = 0; i < 10; i++) {
+                    y =((x2*x2)+2)/(-8*x2+3);
+                    System.out.println("|    "+x2+" "+"       "+y);
+                    x2 = x2-1;
+                }break;
                 
             case 5:
-                
-                
-                break;
+                System.out.println(" Función: f(x)=7/2 x^3+〖8x〗^2-3x+2 ");
+                System.out.println(" __________________________" + "\n" +
+                                   "|   Valor X  |  Valor f(X) |" + "\n" +
+                                   "|__________________________|" + "\n"+
+                                   "|      Mayores que X       |" +"\n"+
+                                   "|__________________________|");
+
+                // Determinacion de valores en un rango 
+                // 10 número Igual y Mayores que X
+                for (int i = 0; i <10 ; i++) {
+                    y =(7/2)*(x*x*x)+(8*x)*(8*x)-(3*x)+2 ;
+                    System.out.println("|     "+x+" "+"       "+y);
+                    x = x+1;
+                }
+                System.out.println("|__________________________ " +"\n"+
+                                   "|       Menores que X      |" +"\n"+
+                                   "|__________________________|");
+                // 10 números Menores que X
+                for (int i = 0; i < 10; i++) {
+                    y =(7/2)*(x2*x2*x2)+(8*x2)*(8*x2)-(3*x2)+2;
+                    System.out.println("|    "+x2+" "+"       "+y);
+                    x2 = x2-1;
+                }break;
             
             case 6:
                 
@@ -148,7 +187,7 @@ public class ProyectoCalculo2 {
         }
                 System.out.println("|____________|______________|");
         System.out.println(" ____________________________________________________________________" + "\n" +
-                           "| Gracias...                                                         |"+ "\n" +
+                           "| Gracias.                                                         |"+ "\n" +
                            "| Creditos: Aguirre Alex, Flores Jorge, García Santiago, Leiva Diego |"+ "\n" +
                            "|____________________________________________________________________|");
         
