@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang=es>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<title>Calculo Diferencial</title>
+</head>
+<!--
+Examples:
+(Ignore...)
+	color fondo/ body: style="background-color:#CFD5DF;"
+
+	insercion tabla/ table>
+  tr>
+    th>Nombre</th>
+    th>Apellido</th>
+    th>Web</th>
+  /tr>
+  tr>
+    td>Amy</td>
+    td>Porterfield</td>
+    td>https://www.amyporterfield.com/</td>
+  /tr>
+  tr>
+    td>Pat</td>
+    td>Flynn</td>
+    td>https://www.smartpassiveincome.com/</td>
+  /tr>
+/table>
+
+	salto de linea:<br>
+-->
+<body>
+	<h1 style="color:white;
+			   background-color:Tomato;
+			   text-align:center;">Calculo Diferencial</h1>
+
+
+
+
+	<button type="button" class="btn btn-outline-inicio"><a href="wiki.com"></a>Inicio</button>
+	<a href="#" class="button Inicio">Inicio</a>
+	<h3 style="color:#0D2C54">Introduccion</h3>
+
+	<p title="Introduccion">¬øQu√© es calculo diferencial?<br>Es una parte del analisis matematico que consiste en el estudio de como cambian las funciones cuando sus variables cambian. El principal objeto de estudio en el calculo diferencial es la derivada. Una nocion estrechamente relacionada es la de diferencial de una funcion.</p>
+	<a target=‚Äù_blank‚Äù href=‚Äùhttps://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial‚Äù>Fuente</a>
+	<hr>
+	<div class=‚Äùbarra-lateral‚Äù>
+    	<h3>Temas a tratar</h3>
+    	<ul>
+			<li> ¬øQue es un numero real?<br>un numero real abarca todos los numeros como:irracionales;enteros;pares;impares;primos;positivos y negativos.</p>
+			<li> ¬øQue es un numero racional?<br>son numeros que no se pueden representar en forma de fraccion.</p>
+			<li> ¬øQue es un numero entero?<br>es un conjunto de numeros incluye a los negativos y positivos.</p>
+			<li> ¬øQue es un numero par?<br>Un numero par es un numero divisible entre dos.</p>
+			<li> ¬øQue es un numero impar?<br>un numero impar es un numero que no es divisible entre dos.</p>
+			<li> ¬øQue es un numero primo?<br>un numero es primo cuando es entero positivo, distinto de 0 y 1 y que unicamente se puede dividir por si mismo y por 1 para dar una solucion exacta.</p>
+			<li> ¬øQue es un numero positivo?<br>un numero positivo es un numero mayor que cero.</p>
+			<li> ¬øQue es un numero negativo?<br>un numero negativo es un numero menor que cero.</p>
+			<li> ¬øQue es una fraccion propia?<br> el numerador es menor que el denominador.</p>
+			<li> ¬øQue es una fraccion impropia?<br>el numeroador es mayor que el denominador.</p>
+			<li> ¬øQue es una fraccion igual?<br>numerador y denominador son iguales.</p>
+			<li> ¬øQue es un decimal exacto?<br>son numeros decimales finitos.</p>
+			<li> ¬øQue es un decimal periodico?<br>son numeros decimales infinitos.</p>
+			<li> ¬øQue es el axioma supremo?<br>tiene por objetivo llenar la recta real, sin huecos, donde siempre va a existir un numero sin excepcion.</p>
+			<li> ¬øQue es el axioma infinito?<br> es un axioma que garantiza la existencia de un conjunto con un numero infinito de elementos.</p>
+
+			<a target=‚Äù_blank‚Äù href=‚Äùhttp://wmatem.eis.uva.es/~matpag/CONTENIDOS/Reales/marco_reales.htm>Fuente</a>
+
+		</ul>
+
+    </div>
+  <div class=‚Äùcontenido‚Äù>
+
+    <h3>Funciones</h3>
+		se dividen en dos variables.
+		<li> dependiente.<br>Una variable dependiente de una función f es aquella cuyos valores dependen de otra variable, que se llama variable independiente (x). Se representa por la letra y, aunque a veces se denota como f(x).</p>
+    <li> independiende.<br>La variable independiente de una función f es un valor que no depende de ninguna otra variable. Se le pueden asignar valores sin tener en cuenta otras variables. Suele representarse por la letra x.</p>
+
+		  <h5>Ejemplo</h5>
+			<body>
+			</p>
+			<body>
+			<img src="https://www.universoformulas.com/imagenes/matematicas/analisis/variable-independiente.jpg"></p><img src="https://www.universoformulas.com/imagenes/matematicas/analisis/variable-independiente-grafica.jpg ">
+			<body>
+			</p>
+		
+
+
+    <p>M√°s texto‚Ä¶ </p>
+ </div>
+
+
+</body>
+</html>
